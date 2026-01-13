@@ -1,0 +1,38 @@
+# UI Mapping Template
+# Copy this file for each session: session_YYMMDD.yaml
+
+session:
+  date: "YYYY-MM-DD"
+  duration_minutes: 0
+
+interactions:
+  - cli_action: "What you did in CLI"
+    ui_page: "Page name from reference below"
+    page_id: "PC.1, CC.6, WK.1, etc."
+    notes: "Any observations about how this would work in UI"
+
+  # Add more interactions as needed
+
+ui_gaps_noticed:
+  - "Any workflows where there's no obvious UI surface"
+
+human_calibration:
+  intent_capture: 0  # 1-5: "Did this capture what you meant?"
+  context_useful: 0  # 1-5: "Was the context useful?"
+  overall: 0         # 1-5: "How was the session overall?"
+
+notes: |
+  Any other observations, friction points, surprises.
+
+# UI Page Reference:
+# PC.1  - Concept Capture (intent elicitation)
+# PC.3  - Project Setup (charter building)
+# P.1   - Project Dashboard
+# P.6   - Project Context (BLOCKED by H-005)
+# CC.6  - Steward Chat (context surfacing)
+# D.1   - Deliverables Overview
+# WK.1  - Task Board (work progress)
+# WK.7  - Work Review (acceptance)
+# S.1   - Pacer View (BLOCKED by H-002)
+# CO.8  - Flow Health Dashboard
+# OT.1  - Outcome Review (GAP - needs creation)

@@ -1,0 +1,40 @@
+{
+  "intent_service": {
+    "type": "npm_module",
+    "path": "../intent/intent-identity",
+    "config": {
+      "model": "claude-sonnet-4-20250514",
+      "thresholds": {
+        "lockCompleteness": 0.85,
+        "driftBlock": 0.70,
+        "antiGoalRecall": 0.95
+      }
+    }
+  },
+  "agent_forge_web": {
+    "type": "rest_sse",
+    "base_url": "${AGENT_FORGE_URL}",
+    "auth": {
+      "type": "supabase_service_role",
+      "key": "${SUPABASE_SERVICE_ROLE_KEY}"
+    },
+    "endpoints": {
+      "execute": "/api/execute",
+      "chat": "/api/chat"
+    }
+  },
+  "evaluation": {
+    "native_scoring": {
+      "capture_elicitor": true,
+      "capture_verifier": true,
+      "capture_aligner": true
+    },
+    "human_calibration": {
+      "ratings_per_session": 3,
+      "scale": "1-5"
+    },
+    "ui_mapping": {
+      "required_per_session": true
+    }
+  }
+}

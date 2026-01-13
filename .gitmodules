@@ -1,0 +1,3 @@
+[submodule "atlas-workcore"]
+	path = atlas-workcore
+	url = ../atlas-workcore
