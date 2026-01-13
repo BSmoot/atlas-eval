@@ -15,20 +15,32 @@ This evaluation uses the actual Atlas system, not a scaffolded approximation. Th
 - Supplemented by human calibration ratings
 - Every CLI interaction mapped to UI pages for the design team
 
+## Dependencies
+
+**For basic evaluation (CLI-based):**
+- Git
+- Claude Code CLI installed
+- No additional repos needed - everything is self-contained
+
+**For TypeScript runtime (optional):**
+- Node.js v18+
+- The `intent/intent-identity` repo (clone as sibling: `../intent/intent-identity`)
+- This is only needed if running atlas-core TypeScript components directly
+
 ## Quick Start
 
 ### First-Time Setup
 
 ```bash
 # 1. Clone the repo
-git clone [repo-url] atlas-eval
+git clone https://github.com/BSmoot/atlas-eval.git
 cd atlas-eval
 
 # 2. Initialize the atlas-workcore submodule
 git submodule update --init --recursive
 
-# 3. Configure services (optional - for M2M testing)
-# Edit config/services.json with your API keys
+# 3. (Optional) For TypeScript runtime, clone the intent repo as a sibling:
+# cd .. && git clone [intent-repo-url] intent && cd atlas-eval
 ```
 
 ### Starting a Session

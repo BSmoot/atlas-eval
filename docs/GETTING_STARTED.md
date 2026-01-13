@@ -4,34 +4,49 @@ This guide helps you set up your evaluation environment.
 
 ## Prerequisites
 
+**Required:**
 - Git installed
-- Node.js installed (v18+)
-- Claude Code installed
+- Claude Code CLI installed
+
+**Optional (for TypeScript runtime):**
+- Node.js v18+
+- The `intent/intent-identity` repo (see below)
 
 ## Setup Steps
 
 ### 1. Clone the Repository
 
-If you haven't already:
-
 ```bash
-git clone [repo-url] atlas-eval
+git clone https://github.com/BSmoot/atlas-eval.git
 cd atlas-eval
 ```
 
 ### 2. Initialize Submodule
 
 ```bash
-git submodule update --init
+git submodule update --init --recursive
 ```
 
-This pulls the atlas-workcore reference.
+This pulls the atlas-workcore reference (documentation and platform specs).
 
-### 3. Configure Services (Optional)
+### 3. (Optional) TypeScript Runtime Dependencies
 
-If using Intent Service or Agent-Forge:
+The `atlas-workcore/atlas-core` TypeScript code depends on `@intent/identity-agent`. If you need to run the TypeScript components directly:
 
-1. Copy `config/services.json`
+```bash
+# Clone as sibling directory
+cd ..
+git clone [intent-repo-url] intent
+cd atlas-eval
+```
+
+**For basic CLI evaluation, this is NOT required.** The evaluation runs through Claude Code, which doesn't need the TypeScript runtime.
+
+### 4. (Optional) Configure External Services
+
+If using Intent Service or Agent-Forge for M2M testing:
+
+1. Edit `config/services.json`
 2. Set environment variables:
    - `AGENT_FORGE_URL` - URL to Agent-Forge-Web
    - `SUPABASE_SERVICE_ROLE_KEY` - Auth key for Agent-Forge
