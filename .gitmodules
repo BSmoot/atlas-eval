@@ -1,3 +1,3 @@
 [submodule "atlas-workcore"]
 	path = atlas-workcore
-	url = ../atlas-workcore
+	url = https://github.com/BSmoot/atlas-core.git
