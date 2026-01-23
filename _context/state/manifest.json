@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Context manifest for atlas-eval. Tracks all context items with status and ownership.",
+  "scope": "project",
+  "updated_at": "2026-01-23T00:00:00Z",
+  "last_change": {
+    "summary": "Populated 6 initiative charters from 2026 strategic plan; imported cornerstones 00-04",
+    "items_affected": ["init-01", "init-02", "init-03", "init-04", "init-05", "init-06", "ctx_cornerstones"]
+  },
+
+  "type_registry": {
+    "canonical_asset": {
+      "critical": true,
+      "push_severity": "important",
+      "description": "Governed knowledge at project scope"
+    },
+    "project_note": {
+      "critical": false,
+      "push_severity": "informational",
+      "description": "Working documents, may be promoted to canonical"
+    },
+    "inbox_item": {
+      "critical": false,
+      "push_severity": "none",
+      "description": "Quick capture items awaiting processing"
+    }
+  },
+
+  "items": [
+    {
+      "id": "ctx_cornerstone_upstack",
+      "path": "cornerstones/CORNERSTONE_UPSTACK.md",
+      "type": "canonical_asset",
+      "status": "draft",
+      "owner_initiative": "all",
+      "affected_initiatives": ["personal-execution", "init-01", "init-02", "init-03", "init-04", "init-05", "init-06"],
+      "added_at": "2026-01-14T00:00:00Z",
+      "reviewed_at": null,
+      "description": "UPSTACK business context, values, and constraints"
+    },
+    {
+      "id": "ctx_project_context",
+      "path": "project/PROJECT_CONTEXT.md",
+      "type": "canonical_asset",
+      "status": "active",
+      "owner_initiative": "all",
+      "affected_initiatives": ["personal-execution", "init-01", "init-02", "init-03", "init-04", "init-05", "init-06"],
+      "added_at": "2026-01-14T00:00:00Z",
+      "reviewed_at": "2026-01-14T00:00:00Z",
+      "description": "Executive knowledge management system project context"
+    },
+    {
+      "id": "ctx_decision_log",
+      "path": "decisions/DECISION_LOG.md",
+      "type": "canonical_asset",
+      "status": "active",
+      "owner_initiative": "all",
+      "affected_initiatives": ["all"],
+      "added_at": "2026-01-14T00:00:00Z",
+      "reviewed_at": null,
+      "description": "Project decision log"
+    },
+    {
+      "id": "ctx_open_items",
+      "path": "state/OPEN_ITEMS.md",
+      "type": "canonical_asset",
+      "status": "active",
+      "owner_initiative": "all",
+      "affected_initiatives": ["all"],
+      "added_at": "2026-01-14T00:00:00Z",
+      "reviewed_at": "2026-01-14T00:00:00Z",
+      "description": "Active open items and blockers"
+    }
+  ],
+
+  "initiatives": {
+    "personal-execution": {
+      "name": "Personal Execution",
+      "description": "Personal work strands tied to outcomes",
+      "status": "active"
+    },
+    "init-01": {
+      "name": "Intelligent Organic Growth",
+      "description": "Prove repeatable, predictable sales mechanics with documented unit economics",
+      "owner": "Advisory Sales (Charlie Day)",
+      "status": "active"
+    },
+    "init-02": {
+      "name": "Scalable Sales Enablement and Demand Generation",
+      "description": "Accelerate rep productivity and reduce time-to-first-deal",
+      "owner": "Advisory Ops (Kelley Moore)",
+      "status": "active"
+    },
+    "init-03": {
+      "name": "Standardized, Tech-Enabled Experience",
+      "description": "Make customer engagement measurable and scalable through standards and technology",
+      "owner": "CX (Kurt Walk)",
+      "status": "active"
+    },
+    "init-04": {
+      "name": "Optimized Foundations",
+      "description": "Enable data-driven decision-making through mature governance and trusted reporting",
+      "owner": "Biz Systems & Data (KP)",
+      "status": "active"
+    },
+    "init-05": {
+      "name": "Alignment & Accountability",
+      "description": "Transform decision-making through unified prioritization and connected culture",
+      "owner": "People Ops (Alex Cole)",
+      "status": "active"
+    },
+    "init-06": {
+      "name": "Reserved - Gateway Initiatives",
+      "description": "Placeholder for cross-functional initiatives emerging from The Gateway",
+      "owner": "The Gateway (via Program 05)",
+      "status": "reserved"
+    }
+  }
+}

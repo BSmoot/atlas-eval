@@ -1,7 +1,7 @@
 # Open Items
 
 **Status:** Active
-**Last Updated:** 2026-01-21
+**Last Updated:** 2026-01-23
 
 ---
 
@@ -42,20 +42,6 @@ IRIS provides semantic queries against internal data sources. Define:
 
 ---
 
-### OI-005 - Populate 6 strategic initiative charters
-**Status:** Open
-**Priority:** P1
-**Blocking:** Initiative tracking, OKR visibility
-
-Need to:
-- Import names and descriptions for each of the 6 2026 strategic initiatives
-- Import draft OKRs for each initiative
-- Assign owners/leads
-- Define initial workflows and deliverables
-
-Initiative placeholders created at:
-- `initiatives/init-01/charter.md` through `initiatives/init-06/charter.md`
-
 ---
 
 ### OI-006 - Define initial personal work strands
@@ -71,6 +57,20 @@ Need to:
 ---
 
 ## Complete
+
+### OI-005 - Populate 6 strategic initiative charters
+**Status:** Complete
+**Priority:** P1
+**Resolved:** 2026-01-23
+
+**Resolution:** All 6 initiative charters populated from 2026 strategic plan documents. Cornerstones 00-04 imported. Manifest updated with initiative names and owners.
+
+**Content imported:**
+- Programs 01-05: Full charters with purpose, scope, OKRs, projects, teams, dependencies, quarterly arcs
+- Program 06: Reserved slot structure for Gateway initiatives
+- Cornerstones 00-04: Why We're Here, Strategic Context, Program Architecture, Operating Principles, Key Entities
+
+---
 
 ### OI-001 - Atlas-workcore access
 **Status:** Complete
