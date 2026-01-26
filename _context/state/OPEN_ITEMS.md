@@ -1,34 +1,11 @@
 # Open Items
 
 **Status:** Active
-**Last Updated:** 2026-01-23
+**Last Updated:** 2026-01-25
 
 ---
 
 ## Open
-
-### OI-002 - Security review for GitHub backup
-**Status:** Open
-**Priority:** P2
-**Blocking:** Long-term backup strategy
-
-Current plan: Local git + cloud-sync'd folder to SharePoint.
-Pending: Security team review of GitHub backup option.
-
----
-
-### OI-003 - Existing notes import strategy
-**Status:** Open
-**Priority:** P1
-**Blocking:** Initial system population
-
-Need to define:
-- Import process for existing `.txt` notes (yymmdd_<topic> format)
-- Import process for existing Obsidian `.md` notes
-- Deduplication/organization approach
-- Whether to copy or reference SharePoint content
-
----
 
 ### OI-004 - IRIS integration approach
 **Status:** Open
@@ -42,21 +19,44 @@ IRIS provides semantic queries against internal data sources. Define:
 
 ---
 
----
-
 ### OI-006 - Define initial personal work strands
-**Status:** Open
+**Status:** In Progress
 **Priority:** P1
 **Blocking:** Personal execution tracking
 
-Need to:
-- Identify current active work strands
-- Create strand files in `initiatives/personal-execution/strands/`
-- Capture current status and next actions for each
+**First strand created:** Use Case Synthesis (WS-001)
+- Building blocks manifest complete
+- Gap analysis complete
+- Use case mapping framework established
+
+**Deliverables:**
+- `_context/project/BUILDING_BLOCKS_MANIFEST.md` — Full platform capability inventory
+- `_context/initiatives/personal-execution/strands/use-case-synthesis.md` — Active work strand
+
+**Remaining:**
+- Identify additional active work strands
+- Create strand files for each
 
 ---
 
 ## Complete
+
+### OI-003 - Existing notes import strategy
+**Status:** Complete
+**Priority:** P1
+**Resolved:** 2026-01-23
+
+**Resolution:** Notes indexed and key insights extracted. Strategy: reference in place (not copy), with structured extractions for high-value content.
+
+**Deliverables:**
+- `_context/project/NOTES_INDEX.md` — Searchable index of 367 notes (Jul 2025 - Jan 2026 + AI Explorations)
+- `_context/project/notes/extracted/STRATEGIC_THEMES.md` — Decisions, action items, themes from leadership/strategy notes
+- `_context/project/notes/extracted/AI_STRATEGY_INSIGHTS.md` — AI architecture, IRIS platform, AI-enabled sales vision
+- `_context/project/notes/extracted/AI_EXPLORATIONS_SUMMARY.md` — Summary of 16 employee AI interviews + findings
+
+**Approach:** Index-in-place + targeted extraction. 1:1 notes remain reference-only (findable via index). Original notes untouched in OneDrive.
+
+---
 
 ### OI-005 - Populate 6 strategic initiative charters
 **Status:** Complete
