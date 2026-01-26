@@ -1,7 +1,7 @@
 # Open Items
 
 **Status:** Active
-**Last Updated:** 2026-01-25
+**Last Updated:** 2026-01-26
 
 ---
 
@@ -24,18 +24,84 @@ IRIS provides semantic queries against internal data sources. Define:
 **Priority:** P1
 **Blocking:** Personal execution tracking
 
-**First strand created:** Use Case Synthesis (WS-001)
-- Building blocks manifest complete
-- Gap analysis complete
-- Use case mapping framework established
+**Active Strands:**
+
+| ID | Strand | Status |
+|----|--------|--------|
+| WS-001 | AI Exploration | Active |
+| WS-002 | Vision Alignment & Transformation Readiness | Active |
+| WS-003 | Program Stewardship | Active |
+| WS-004 | Strategic Positioning | Active |
+| WS-005 | Context Management | Active |
+| WS-006 | Agentic Organization | Active |
+| WS-007 | Revenue Engine | Active |
+| WS-008 | Strategic Insights | Active |
+| WS-009 | Investor Alignment | Active |
+
+**WS-001 - AI Exploration**
+- Expanded scope: prove what's possible, give business access, accelerate change, create leverage, define human-AI collaboration
+- Workstreams: Use Case Synthesis, Capability Access, Proof Points, Human-AI Collaboration Model
+- Building blocks manifest and gap analysis complete
+
+**WS-002 - Vision Alignment & Transformation Readiness**
+- Strand file created
+- 9 workstreams defined
+- Ready for execution
+
+**WS-003 - Program Stewardship**
+- Strand file created
+- Covers: monitoring, guidance, questioning, resourcing, unblocking, coordinating
+- Spans all 6 strategic programs
+
+**WS-004 - Strategic Positioning**
+- Strand file created
+- Audiences: investors, internal, customers
+- Themes: investment impact, leverage, augment/automate/rewrite, offerings as products
+
+**WS-005 - Context Management**
+- Strand file created
+- Shared context layer for humans and AI
+- Workstreams: canonical context, specific context, intent→outcome, metrics alignment, tracking, collaboration, traceability, feedback, human-AI review
+
+**WS-006 - Agentic Organization**
+- Strand file created
+- Mirror org structure with agent teams
+- Context Ops team supports all agents (and by proxy, the business)
+- Tests WS-005 context, surfaces gaps, spawns dynamic agents
+
+**WS-007 - Revenue Engine**
+- Strand file created
+- Repeatability, predictability, programmatic revenue growth
+- CRO hire, marketing/sales enablement maturity, systems, goal alignment
+- Insights → action → insights continuous improvement loop
+
+**WS-008 - Strategic Insights**
+- Strand file created
+- Four pillars: demand/selling, optimized investment, retention, metrics that matter
+- Key partner: Dan Corning
+- Gated by data accuracy; feeds WS-007 Revenue Engine
+
+**WS-009 - Investor Alignment**
+- Strand file created
+- Alignment stack: daily ops → weekly → monthly → board → investor story
+- Board decks as investor pitch practice
+- Defensible numbers, digestible narrative
 
 **Deliverables:**
 - `_context/project/BUILDING_BLOCKS_MANIFEST.md` — Full platform capability inventory
-- `_context/initiatives/personal-execution/strands/use-case-synthesis.md` — Active work strand
+- `_context/initiatives/personal-execution/strands/use-case-synthesis.md` — WS-001
+- `_context/initiatives/personal-execution/strands/vision-alignment.md` — WS-002
+- `_context/initiatives/personal-execution/strands/program-stewardship.md` — WS-003
+- `_context/initiatives/personal-execution/strands/strategic-positioning.md` — WS-004
+- `_context/initiatives/personal-execution/strands/context-management.md` — WS-005
+- `_context/initiatives/personal-execution/strands/agentic-org.md` — WS-006
+- `_context/initiatives/personal-execution/strands/revenue-engine.md` — WS-007
+- `_context/initiatives/personal-execution/strands/strategic-insights.md` — WS-008
+- `_context/initiatives/personal-execution/strands/investor-alignment.md` — WS-009
 
 **Remaining:**
-- Identify additional active work strands
-- Create strand files for each
+- Execute work strands
+- Identify additional work strands if needed
 
 ---
 
