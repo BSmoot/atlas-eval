@@ -1,6 +1,6 @@
 # Capture: 2026-01-28 Session
 
-## High Priority (5)
+## High Priority (6)
 
 | # | Item | Strand | Owner/With |
 |---|------|--------|------------|
@@ -9,6 +9,7 @@
 | 3 | Performance Metrics for 2026 - review and adjust | WS-008 | — |
 | 4 | Escalation Log with Ops | WS-003 | Ops |
 | 5 | Program owner performance metrics | WS-003 | AS |
+| 6 | Business ops performance metrics and release/change mgmt tuning (simplification) | WS-003 | — |
 
 ---
 
@@ -24,7 +25,7 @@
 | 10 | Paylocity FSA receipts | quick | — |
 | 11 | Sucuri transfer to Darrell | quick | — |
 
-### Programs / Execution (6)
+### Programs / Execution (7)
 | # | Item | Status | Strand |
 |---|------|--------|--------|
 | 12 | Program 3 catalogue and low hanging fruit | ready | WS-003 |
@@ -33,6 +34,7 @@
 | 15 | All hands visibility and topics confirmed (program 5) | ready | WS-003 |
 | 16 | Launch cadence and requirements | ready | WS-003 |
 | 17 | Strategy & hindsight agenda and schedule | ready | WS-003 |
+| 62 | **HIGH** Business ops performance metrics and release/change mgmt tuning (simplification) | ready | WS-003 |
 
 ### AI / Tech (9)
 | # | Item | Status | Strand |
@@ -97,12 +99,29 @@
 |---|------|--------|--------|
 | 52 | Upsthackathon plan | ready | WS-001 |
 
+### CT / COO Alignment (2)
+| # | Item | Status | Strand |
+|---|------|--------|--------|
+| 53 | AI research share w/ CT - cadence and regular update approach | ready | WS-001 |
+| 54 | AI intent and expectation discovery w/ CT - compare to business/program status for COO | ready | WS-001 |
+
+### AI Research (7)
+| # | Item | Status | Strand |
+|---|------|--------|--------|
+| 55 | Synthesis research applied | ready | WS-001 |
+| 56 | Phone claude items added to word doc on AI threads | ready | WS-001 |
+| 57 | NLP vs AI mapping added to claude | ready | WS-001 |
+| 58 | Engineering requirements spec added to apex | ready | WS-006 |
+| 59 | Research on claude-code setups for teams | ready | WS-006 |
+| 60 | Research on product-launch patterns that are successful | ready | WS-004 |
+| 61 | Checking dynamically for verification rules for our claude hook | ready | WS-006 |
+
 ---
 
 ## Summary
 
-- **Total captured:** 52 items (removed 1 duplicate)
-- **High priority:** 5
+- **Total captured:** 62 items
+- **High priority:** 6
 - **Quick tasks:** 2
 - **Ready:** 44
 - **Backlog:** 1
@@ -112,11 +131,11 @@
 
 | Strand | Count | Key Items |
 |--------|-------|-----------|
-| WS-001 (AI Exploration) | 13 | AI launch, IRIS alignment, demo, decision assist, CX/Sales release, S code, volunteers, hackathon, Rafferty, RJ, Leo |
+| WS-001 (AI Exploration) | 18 | AI launch, IRIS alignment, demo, decision assist, CX/Sales release, S code, volunteers, hackathon, Rafferty, RJ, Leo, CT alignment, synthesis research, NLP mapping |
 | WS-002 (Vision/Transform) | 2 | Cascade requirements, staff interviews |
-| WS-003 (Program Stewardship) | 8 | Program cadence, P3 catalogue, escalation log, program metrics, all hands, launch cadence, strategy & hindsight, ops support |
-| WS-004 (Strategic Positioning) | 9 | 2026 Video, non-technical product, Lazard share, video/case studies, case ownership, h-v research, CIO research, AEO research |
-| WS-006 (Agentic Org) | 2 | AI department, claude agent cleanup |
+| WS-003 (Program Stewardship) | 9 | Program cadence, P3 catalogue, escalation log, program metrics, all hands, launch cadence, strategy & hindsight, ops support, biz ops metrics |
+| WS-004 (Strategic Positioning) | 10 | 2026 Video, non-technical product, Lazard share, video/case studies, case ownership, h-v research, CIO/AEO research, product-launch patterns |
+| WS-006 (Agentic Org) | 5 | AI department, claude agent cleanup, apex eng spec, claude-code teams research, verification hooks |
 | WS-007 (Revenue Engine) | 10 | CRO feedback, Aux-Product, revenue risk, Aux-FTE, Brad, Ryan/VBT, playbook tracking, growth testing, customer council |
 | WS-008 (Strategic Insights) | 4 | Ops report structure, performance metrics, product-tech measures, DSI measures |
 | WS-009 (Investor Alignment) | 1 | Board deck prep |
