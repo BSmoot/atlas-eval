@@ -1,16 +1,17 @@
 # Open Items
 
 **Status:** Active
-**Last Updated:** 2026-01-26
+**Last Updated:** 2026-01-28
 
 ---
 
 ## Open
 
 ### OI-004 - IRIS integration approach
-**Status:** Open
-**Priority:** P2
+**Status:** Deferred
+**Priority:** P3
 **Blocking:** Semantic query capability
+**Deferred:** 2026-01-28 (not a priority right now)
 
 IRIS provides semantic queries against internal data sources. Define:
 - How this system interacts with IRIS
