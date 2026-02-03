@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "id": "pacer-001",
+      "what": "Establish team goals and KPIs",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-002",
+      "what": "Establish components required to prioritize and measure output",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-003",
+      "what": "Schedule and target launch plan",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-004",
+      "what": "Shared agent knowledge - file-based insights, canonical docs, decisions, business info all agents should share",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-005",
+      "what": "Jobs for Intel creation/update, trigger research on repeat basis",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-006",
+      "what": "BRICS activities and outputs persona-based tracking",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-007",
+      "what": "End-to-end view of agentic agency - what becomes possible when BRICS is complete",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-008",
+      "what": "List functionalities and knowledge bases with explanations and current status",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-009",
+      "what": "Tie-in and review with rest of technology team and processes",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-010",
+      "what": "Discuss upsthackathon",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-011",
+      "what": "Treat product tech as a use case",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-012",
+      "what": "Treat no-code as a use case",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-013",
+      "what": "Communications template for use cases and new capabilities",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-014",
+      "what": "Work tracker",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-015",
+      "what": "Knowledge capture",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-016",
+      "what": "Working sessions",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-017",
+      "what": "All context to be written across business",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-03T15:23:00Z",
+      "updated": "2026-02-03T15:23:00Z"
+    },
+    {
+      "id": "pacer-018",
+      "what": "Craft concepts - required for each initiative, explains how concept fits into existing architecture",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-019",
+      "what": "ADRs for any new architecture decisions",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-020",
+      "what": "Participate in concept reviews",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-021",
+      "what": "Participate in ADR meetings",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-022",
+      "what": "Participate in A meetings (alignment on approach across AI-related products)",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-023",
+      "what": "Plan demonstrations of WHAT is being built",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-024",
+      "what": "Plan demonstrations of HOW it is being built (separate from what)",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-025",
+      "what": "Establish open dialogue on developer pain points",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-026",
+      "what": "Establish open dialogue on architecture and security concerns",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-027",
+      "what": "Establish open dialogue on alignment issues",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-009",
+      "created": "2026-02-03T15:24:00Z",
+      "updated": "2026-02-03T15:24:00Z"
+    }
+  ],
+  "metadata": {
+    "lastUpdated": "2026-02-03T15:24:00Z",
+    "version": "1.0",
+    "itemCount": 27
+  }
+}
