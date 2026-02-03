@@ -1,51 +1,43 @@
 # Atlas Evaluation Project
 
-This is a real Atlas project for evaluating the Atlas system over multiple weeks.
+This is the evaluation wrapper for observing Atlas system behavior over multiple weeks.
 
-## Fleet Configuration
-
-This project uses the PROJECT-STEWARD fleet from atlas-workcore:
+## Structure
 
 ```
-atlas-workcore/project-steward/CLAUDE.md
+atlas-eval/
+├── upstack/                    # THE USER PROJECT - start sessions here
+│   ├── .claude/CLAUDE.md       # Project Steward configuration
+│   ├── _context/               # Junction to ../_context
+│   └── atlas-workcore/         # Junction to ../atlas-workcore
+├── _context/                   # Actual context storage
+├── atlas-workcore/             # Fleet definitions (submodule)
+└── _evaluation/                # Evaluation data capture
 ```
 
-The fleet provides:
-- **STEWARD** - Strategic alignment intelligence (CAP protocol)
-- **ORCHESTRATION-MANAGER** - Execution coordinator (PROCEED/ASSESS modes)
-- **APEX agents** - Implementation workflow (architect, guardian, developer, integrator, reviewer)
+## How to Use
 
-## How This Project Works
+**For stewardship work:** Start Claude sessions in `upstack/`
+```
+cd upstack
+claude
+```
 
-You are helping a non-technical tester work on their own project. This is an evaluation of the Atlas system.
+**For evaluation administration:** Start sessions in `atlas-eval/` (here)
 
-**Key principles:**
-1. Let the system work naturally - no artificial scaffolding
-2. Use native Atlas scoring (Elicitor, Verifier, Aligner) as primary data
-3. Every CLI interaction maps to a UI page in the Atlas web app
-
-## Evaluation Context
+## Evaluation Data Capture
 
 This project captures:
 - Native scores from ContextEngine components (Elicitor, Verifier, Aligner)
 - Human calibration ratings (1-5 scales)
 - CLI to UI mappings for the design team
+- Session observations and friction notes
 
 **Native scoring thresholds (from ContextEngine v3.0):**
 - Intent lock completeness: 0.85
 - Alignment pass: 0.70
 - Anti-goal recall: 0.95
 - Drift block: 0.70
-
-## Project Context
-
-The tester's project context lives in `_context/`:
-- `cornerstones/` - Project principles
-- `decisions/` - Decision log
-- `state/` - Open items, manifest
-- `project/` - Specs, notes, scratchpad
-
-Platform context (read-only) lives in `atlas-workcore/project-steward/_context/atlas/`.
 
 ## At End of Each Session
 
