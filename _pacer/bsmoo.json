@@ -279,11 +279,32 @@
       "parent": "pacer-009",
       "created": "2026-02-03T15:24:00Z",
       "updated": "2026-02-03T15:24:00Z"
+    },
+    {
+      "id": "pacer-028",
+      "what": "Add user elicitation and architecture review/dialogue/confirmation PRIOR to building with current workflow builder. Should accommodate looking for existing solutions and re-using. Flow: Intent → context → spec → execution → eval",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "created": "2026-02-04T18:40:00Z",
+      "updated": "2026-02-04T18:40:00Z"
+    },
+    {
+      "id": "pacer-029",
+      "what": "Create an equivalent to architectural-review for UPSTACK's requirements - requirements review/validation process before implementation",
+      "why": "WS-001",
+      "status": "ready",
+      "owner": "bsmoo",
+      "strand": "WS-001",
+      "parent": "pacer-028",
+      "created": "2026-02-04T18:41:00Z",
+      "updated": "2026-02-04T18:41:00Z"
     }
   ],
   "metadata": {
-    "lastUpdated": "2026-02-03T15:24:00Z",
+    "lastUpdated": "2026-02-04T18:41:00Z",
     "version": "1.0",
-    "itemCount": 27
+    "itemCount": 29
   }
 }
